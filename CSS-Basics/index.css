@@ -1,0 +1,33 @@
+body{
+	background-image: url(fond.jpg);
+}
+h2
+{color: #FF8826;
+text-align: right;
+cursor: pointer;}
+p
+{color: #820A0A;
+	line-height: 50px;
+	font-style: italic;
+	font-size: 20px;
+font-family : 'Aboreto', cursive ;
+border: 10px #FF8826 solid ;
+position: relative;}
+li{
+	list-style: none;
+	display: inline-block;
+}
+ul{
+	text-align: right;
+}
+.moi{
+	float: left;
+	margin: 5px;
+}
+footer{
+	clear: both;
+	font-family: adinda;
+	font-size: 60px;
+	text-align: center;
+	color: #820A0A;
+}

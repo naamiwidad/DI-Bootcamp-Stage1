@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>inscription</title>
+</head>
+<body>
+	<form action="nouvellepage.html" method="GET">
+		Nom: <input type="text" name="Nom"><br>
+		Prenom: <input type="text" name="Prenom"><br>
+		Email: <input type="email" name="Email" required ><br>
+		Mot de passe: <input type="password" name="Mot de passe" minlength="8"><br>
+		Date de naissance: <input type="date"name="Date de naissance"><br>
+		Genre: <br>
+		<input type="radio" name="sexe" value="Masculin">Masculin<br>
+		<input type="radio" name="sexe" value="Feminin">Feminin<br>
+		Animaux de compagnie:<br>
+		<input type="checkbox" name="chats">chats<br>
+		<input type="checkbox" name="chiens">chiens<br>
+		Voiture:<br>
+		<select name="voitures" >
+			<option value="Mercedes" name="Mercedes">Mercedes</option>
+			<option value="Jeep" name="Jeep">Jeep</option>
+		</select><br>
+		<input type="submit" value="Inscris-toi !">
+		<input type="reset">
+	</form>
+	<table>
+		<thead>
+			<tr>
+				<th>titre 1</th>
+				<th>titre 2</th>
+				<th>titre3</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr>
+				<td>coucou1</td>
+				<td>coucou2</td>
+				<td>coucou3</td>
+			</tr>
+		</tbody>
+		<tfoot>
+			<tr>
+				<td>yo1</td>
+				<td>yo2</td>
+				<td>yo3</td>
+			</tr>
+		</tfoot>
+	</table>
+
+</body>
+</html>
