@@ -1,0 +1,44 @@
+body {
+	width: 100%;
+	text-align: center;
+}
+div {
+	border: 3px solid black;
+}
+.boite {
+	height: 100px;
+	display: inline-block;
+	width: 200px;
+	margin-left: 30px;
+}
+.entete {
+	background-color: purple;
+	height: 150px;
+	margin-left: 50px;
+	margin-right: 50px;
+	margin-bottom: 25px;
+	text-align: center;
+}
+.gauche {
+	background-color: red;
+	width: 400px;
+	height: 300px;
+	margin: 10px;
+}
+.milieu {
+	background-color: green;
+	width: 400px;
+	height: 300px;
+	margin: 10px;
+}
+.droite {
+	background-color: orange;
+	width: 400px;
+	height: 300px;
+	margin: 10px;
+}
+img {
+	width: 400px;
+	height: 300px;
+	margin: 10px;
+}

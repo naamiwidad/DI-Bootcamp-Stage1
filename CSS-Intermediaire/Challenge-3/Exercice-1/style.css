@@ -1,0 +1,29 @@
+body {
+            width: 100%;
+            margin: 0 20px;
+            text-align: center;
+        }
+        div,footer {
+            display: inline-block;
+            height: 100px;
+        }
+        .container {
+            margin: 20px 0px;
+            width: 100%;
+        }
+        .element1, .element2, footer {
+            border: 3px solid black;
+        }
+        .element1 {
+            width: 25%;
+            background: red;
+            margin-right: 3%
+        }
+        .element2 {
+            width: 65%;
+            background: lightblue;
+        }
+        footer {
+            width: 94.5%;
+            background: yellow;
+        }
