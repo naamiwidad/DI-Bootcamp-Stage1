@@ -35,7 +35,8 @@ h2 {
 	margin-top: 100px;
 
 }
-.naissance, .etude, .mariage, .soujoud, .widad, .dos {
+.naissance, .etude, .mariage, .soujoud, .widad, .dos{
+	display:inline-block;
 	width: 600px;
 	height: 100px;
 	border: 3px solid black;
@@ -53,14 +54,6 @@ h2 {
 .soujoud {
 	height: 250px;
 	transition: all 1s;
-}
-.soujoud:hover {
-	transform: scale(1.1);
-}
-@media screen {
-.etude {
-	height: 250px;
-}
 }
 .mariage {
 	height: 300px;
