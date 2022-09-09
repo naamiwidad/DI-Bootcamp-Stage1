@@ -1,0 +1,108 @@
+body{
+	text-align: center;
+}
+header {
+	background-color: #D36CA8;
+	margin-top: -20px;
+
+}
+img {
+	width: 50%;
+	height: 400px;
+	margin-top: -245px;
+	margin-left: 200px;
+
+}
+h1,h2 {
+	text-align: left;
+	width: 400px;
+	margin-left: 70px;
+	color: #E3E3E3;
+	border-bottom: 3px solid #B62D59;
+	box-shadow: 5px 5px 5px #B62D59;
+}
+h1 {
+	font-family : 'andrea';
+	width: 250px;
+}
+span {
+	letter-spacing: 5px;
+}
+h2 {
+	font-family : 'Ananda black';
+	font-size: 32px;
+	margin-left: 10px;
+	margin-top: 100px;
+
+}
+.naissance, .etude, .mariage, .soujoud, .widad, .dos {
+	width: 600px;
+	height: 100px;
+	border: 3px solid black;
+	padding: 15px;
+	text-align: center;
+	margin: 380px;
+	margin-top: 50px;
+	margin-bottom: 10px;
+	font-size: 28px;
+	box-shadow: 5px 5px 5px #B62D59;
+	font-family : 'Andrea';
+	transition: all 1s;
+
+}
+.soujoud {
+	height: 250px;
+	transition: all 1s;
+}
+.soujoud:hover {
+	transform: scale(1.1);
+}
+@media screen {
+.etude {
+	height: 250px;
+}
+}
+.mariage {
+	height: 300px;
+}
+.widad {
+	height: 200px;
+}
+.dos {
+	height: 300px;
+}
+div:hover {
+	transform: scale(1.1);
+}
+.description {
+	font-family : 'garamond';
+	font-size: 30px;
+	text-align: center;
+	margin-left: 5px;
+	margin-top: 45px;
+	line-height: 40px;
+	padding: 1em;
+	margin-left: 100px;
+	width: 1100px;
+	height: 400px;
+	position: relative;
+	background-color: #F578A6;
+	box-shadow: 10px 14px 15px #E43878;
+}
+.fin {
+	margin:100px ;
+	margin-left: 150px;
+	padding: 20px;
+	background-color: #F87999;
+	font-family: andrea;
+	font-size: 28px;
+	width: 1000px;
+	height: 50px;
+	text-align: center;
+	border-radius: 50px 50px 50px 50px;
+	box-shadow: 20px 10px 15px #D5003D;
+}
+.ma {
+	color: #D5003D;
+
+}
